@@ -1,0 +1,14 @@
+# Don't lint these
+coverage
+docs
+snapshots
+dist
+node_modules
+log
+logs
+mock
+reports
+stories
+
+.storybook
+out

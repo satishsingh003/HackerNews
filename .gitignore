@@ -1,0 +1,7 @@
+node_modules
+out
+.next
+.firebase
+
+# Reports
+reports

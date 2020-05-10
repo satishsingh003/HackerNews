@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing NewsList container component should render correctly 1`] = `
+<NewsList
+  hideNewsItem={[Function]}
+  loadMoreNews={[Function]}
+  newsListData={
+    Array [
+      Object {
+        "objectID": 1,
+        "title": "ABC",
+      },
+      Object {
+        "objectID": 12,
+        "title": "XYZ",
+      },
+    ]
+  }
+  upVoteNewsItem={[Function]}
+/>
+`;

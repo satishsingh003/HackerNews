@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the news list item component test snapshot 1`] = `
+<li
+  key="15800676"
+>
+  <span
+    className="lgOnly"
+  >
+    <span
+      className="commentsCount"
+    >
+      813
+    </span>
+    <span
+      className="upVote"
+    >
+      <span
+        className=""
+      >
+        3001
+      </span>
+      <a
+        className="upVoteIcon"
+        href="#"
+        onClick={[Function]}
+      >
+        Up
+      </a>
+    </span>
+  </span>
+  <span
+    className="title space"
+  >
+    macOS High Sierra: Anyone can login as “root” with empty password
+  </span>
+  <br
+    className="smOnly"
+  />
+  <span
+    className="space"
+  >
+    (https://twitter.com/lemiorhan/status/935578694541770752)
+  </span>
+  <br
+    className="smOnly"
+  />
+  <span
+    className="space author"
+  >
+    by vladikoff
+  </span>
+  <span
+    className="space timeSince"
+  >
+    2 years ago
+  </span>
+  <br
+    className="smOnly"
+  />
+  <span
+    className="smOnly"
+  >
+    <span
+      className="commentsCount"
+    >
+      813
+    </span>
+    <span
+      className="upVote"
+    >
+      <span
+        className=""
+      >
+        3001
+      </span>
+      <a
+        className="upVoteIcon"
+        href="#"
+        onClick={[Function]}
+      >
+        Up
+      </a>
+    </span>
+  </span>
+  <a
+    className="space hideItem"
+    href="#"
+    onClick={[Function]}
+  >
+    [hide]
+  </a>
+  <style
+    jsx={true}
+  >
+    
+                li {
+                    padding: 3px 30px 3px 80px;
+                    list-style: none;
+                    margin: 5px 0;
+                    font-size: 12px;
+                }
+                li:nth-child(even) {background: #CCC;}
+
+                a {
+                    text-decoration: none;
+                    color: blue;
+                    font-family: 'Arial';
+                }
+
+                a:hover {
+                    opacity: 0.6;
+                }
+
+                .commentsCount, .upVote {
+                    width: 70px;
+                    display: inline-block;
+                }
+                .upVoteIcon {
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 0 4px 8px 4px;
+                    border-color: transparent transparent #000 transparent;
+                    text-indent: -999px;
+                    display: inline-block;
+                    line-height: 10px;
+                    margin-left: 10px;
+                }
+                .upVoted {
+                    color: red;
+                }
+                .upVoted + .upVoteIcon {
+                    border-color: transparent transparent #aaa !important;
+                }
+                .title {
+                    font-size: 16px;
+                }
+                .timeSince {
+                    color: #848484;
+                }
+                .author {
+                    color: #4c4c4c;
+                }
+                .space {
+                    margin-right: 10px;
+                }
+                .smOnly {
+                    display: none;
+                }
+                @media only screen and (max-width: 1024px) {
+                    li {
+                        padding: 10px 10px;
+                        line-height: 16px;
+                    }
+                    .smOnly {
+                        display: block;
+                    }
+                    .lgOnly {
+                        display: none;
+                    }
+                    .commentsCount {
+                        width: 50px;
+                    }
+                    .upVote {
+                        width: 60px;
+                    }
+                }
+            
+  </style>
+</li>
+`;
